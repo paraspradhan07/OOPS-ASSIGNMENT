@@ -3,8 +3,11 @@ using namespace std;
 
 int main()
 {
-    int a = 10;
-    int b = 20;
+    int a, b;
+    cout << "Enter a: ";
+    cin >> a;
+    cout << "Enter b: ";
+    cin >> b;
     cout << "Before Swapping: a = " << a << ", b = " << b << "\n";
 
     // 1. a now holds the sum of the original a and b
